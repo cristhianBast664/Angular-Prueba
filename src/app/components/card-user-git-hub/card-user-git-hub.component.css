@@ -141,7 +141,7 @@ button, i {
 	font-size: 1rem;
 }
 
-.card .additional .coords.center{
+.card .additional .coords .center{
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -174,7 +174,7 @@ button, i {
 	color: #325C46;
 }
 
-.card .additional .stats>div {
+.card .additional .stats > div {
 	flex: 1;
 	text-align: center;
 }
@@ -183,19 +183,19 @@ button, i {
 	display: inline;
 }
 
-.card .additional .stats div.title {
+.card .additional .stats div .title {
 	font-size: 0.75rem;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-.card .additional .stats div.value {
+.card .additional .stats div .value {
 	font-size: 1rem;
 	font-weight: bold;
 	line-height: 1rem;
 }
 
-.card .additional .stats div.value.infinity {
+.card .additional .stats div .value .infinity {
 	font-size: 2.5rem;
 }
 
@@ -217,3 +217,4 @@ button, i {
 	right: 1rem;
 	font-size: 0.9em;
 }
+

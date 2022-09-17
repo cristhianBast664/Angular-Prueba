@@ -1,0 +1,42 @@
+<div class="card">
+  <div class="additional">
+    <div class="user-card">
+      <h4 class="level center">{{ infoUser.login }}</h4>
+      <img class="round" [src]="infoUser.avatar_url" alt="">
+      <h4 class="points center">{{ infoUser.created_at | date }}</h4>
+    </div>
+    <div class="more-info">
+      <h1>{{ infoUser.name }}</h1>
+      <div>
+        <span class="coords"><span><i class="fa-solid fa-location-dot"></i></span> {{ infoUser.location }}</span>
+        <span class="coords"><span><i class="fa-brands fa-twitter"></i></span> @{{ infoUser.twitter_username }}</span>
+      </div>
+      <div class="coords center">
+        <i class="fa-solid fa-blog"></i>
+        <a href="">{{ infoUser.blog }}</a>
+      </div>
+      <div class="stats">
+        <div>
+          <h4 class="coords title">REPOS</h4>
+          <i class="fa-solid fa-code-branch"></i>
+          <p class="coords value">{{ infoUser.public_repos }}</p>
+        </div>
+        <div>
+          <h4 class="coords title">FOLLOWERS</h4>
+          <i class="fa-solid fa-users"></i>
+          <p class="coords value">{{ infoUser.followers }}</p>
+        </div>
+        <div>
+          <h4 class="coords title">FOLLOWING</h4>
+          <i class="fa-solid fa-user-group"></i>
+          <p class="coords value infinity">{{ infoUser.following }}</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+</div>
